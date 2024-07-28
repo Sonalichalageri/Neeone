@@ -1,0 +1,38 @@
+
+.sidebar-menu{
+    width: 250px;
+    height: 100%;    
+    margin: 8px;
+    background-color: #fff;
+    
+
+    .sidebar-header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        border-bottom: 1px solid #B2BEB5;    
+        color: black;   
+        padding: 8px 0px 8px 12px;
+        font-size: 16px; 
+        font-weight: 500;          
+    }
+
+    .sidebar-content{
+        display: flex;
+        flex-direction: column;
+        .menu-item{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 8px;
+            padding: 8px;
+            border-bottom: 1px solid #B2BEB5;
+            font-size: 14px; 
+        }
+    }
+}
+       
+
+
+ 

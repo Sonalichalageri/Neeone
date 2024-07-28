@@ -1,0 +1,50 @@
+.manage-user-container{
+    height: 100%;
+    width: calc(100vw - 250px);
+    background-color: #fff;
+    margin: 8px 8px 8px 0px;
+    
+
+    .header-options{
+        padding: 8px;
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: end;
+        gap: 16px;
+        align-items: center;
+
+        input[type="text"]{
+            height: 25px;
+            width: 220px;
+        }
+
+        .search-btn{
+            background-color: limegreen;
+        }
+
+        .add-btn{
+            padding-right: 8px;
+        }
+
+       
+    }.manage-user-content{
+
+        padding: 8px;
+
+        .btn{
+            background-color: limegreen;
+            color: #fff!important;
+            margin: 8px;
+
+        }
+    }
+
+    table{
+      width: 100%;
+      padding: 8px;        
+               
+    }
+    .edit-btn{
+        background-color: limegreen;
+    }
+}

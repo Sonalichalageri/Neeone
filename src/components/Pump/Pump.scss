@@ -1,0 +1,148 @@
+.pump-body-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: calc(100vw - 250px);
+
+    .pump-detail1 {
+        width: 80%;
+        height: 100%;
+        background-color: #fff;
+        margin: 8px 8px 8px 0px;
+
+
+        .pump-header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #F8F8F8;
+            justify-content: space-between;
+
+            .left-header {
+                gap: 8px;
+                padding: 8px;
+
+                .icon {
+                    padding: 8px;
+                }
+            }
+
+            .right-header {
+                display: flex;
+                align-items: center;
+
+                span {
+                    border: 1px solid #F8F8F8;
+                    box-sizing: border-box;
+                    justify-content: space-around;
+                    padding: 8px;
+                    border-radius: 4px;
+                }
+            }
+        }
+
+        .pump-detail1-content {
+            margin: 4% 2% 4% 4%;
+            border: 2px solid #F8F8F8;
+            border-radius: 2px;
+
+            .content1 {
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                text-align: center;
+                gap: 8px;
+                padding: 8px;
+
+
+                .check-icon {
+
+                    color: green;
+                }
+
+                .padding {
+                    padding: 4px;
+                }
+
+                .content1-detail1 {
+                    height: 100%;
+                    width: 30%;
+                    border-right: 2px solid #F8F8F8;
+                    
+
+                }
+            }
+
+            .progress-bar-container {
+                background-color: #f0f0f0;
+                border-radius: 5px;
+                overflow: hidden;
+                
+            }
+
+            .progress-bar {
+                height: 100%;
+                transition: width 0.3s ease-in-out;
+            }
+
+            .progress-text {
+                position: absolute;
+                
+                // top: 50%;
+                // left: 50%;
+                transform: translate(-50%, -50%);
+                color: black;
+                /* Example: White color for text */
+                // font-weight: bold;
+            }
+        }
+    }
+    
+
+    .pump-detail2 {
+        height: 100%;
+        width: 20%;
+        background-color: #fff;
+        margin: 8px 8px 8px 0px;
+
+        .pump-header {
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            border-bottom: 2px solid #F8F8F8;
+        }
+
+        .pump-detail {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-bottom: 6px solid #F8F8F8;
+
+            .align {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .align-number {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 32px;
+                font-weight: 500;
+                color: limegreen;
+            }
+
+            ::placeholder {
+                font-size: 16px;
+            }
+        }
+
+        .pump-priority-detail {
+            padding: 8px;
+            gap: 10px;
+            font-size: 12px;
+        }
+    }
+}
+

@@ -1,0 +1,37 @@
+.manage-task-container{
+    height: 100%;
+    width: calc(100vw - 250px);
+    background-color: #fff;
+    margin: 8px 8px 8px 0px;
+    .header-options{
+        padding: 8px;
+        border-bottom: 1px solid grey;
+        display: flex;
+        justify-content: end;
+        gap: 16px;
+        align-items: center;
+
+        input[type="text"]{
+            height: 25px;
+            width: 220px;
+        }
+        .add-btn{
+            background-color: limegreen;
+            
+        }.btn{
+            padding-right: 8px;
+        }          
+    }
+    .manage-task-content{
+
+      
+        .btn{
+            background-color: limegreen;
+            color: #fff!important;
+            margin: 8px;
+
+        }
+            
+        
+    }
+}

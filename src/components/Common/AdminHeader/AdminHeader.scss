@@ -1,0 +1,81 @@
+.header-container{
+    height: 80px;
+    width: 100%;   
+    top: 0;
+
+    .top-header{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 12px;
+            gap: 8px;
+            width: 250px;           
+            color:limegreen;
+
+            .logo-title{
+                display:flex;
+                flex-direction: column;
+                .logo-slogan{
+                    color: black;
+                    font-size: 12px;
+                     .grey{
+                        color: grey;
+                        font-size: 12px;
+                     }
+                }
+                .logo-name{
+                    font-size: 20px;                    
+                }
+            }        
+        }
+
+        .right{
+            width: 300px;           
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 8px;
+            gap: 16px;
+
+            .company-logo{
+                color: limegreen;  
+                display: flex;
+                flex-direction: column;  
+                margin: 8px;                       
+
+                .dark-green{
+                    color: rgb(15, 186, 15);
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 20px;
+                    font-weight: 900;
+
+                }
+                .green{
+                    color: limegreen;
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+
+            }
+        }
+
+    }
+
+    .top-navbar{
+        height: 50px;
+        background-color: limegreen;
+    }
+
+
+    
+
+
+}

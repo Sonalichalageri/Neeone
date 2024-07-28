@@ -1,0 +1,96 @@
+.edit-task-container{
+    background-color: #fff;
+    width: calc(100vw - 250px);
+    height: 100%;
+    margin: 8px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+
+    .edit-task-card-body {
+        background-color: #f8f8f8;
+        margin: 12px;
+        border: 1px solid rgb(209, 210, 212);
+        border-radius: 2px;
+
+        .edit-task-card-header {
+            border-bottom: 1px solid rgb(209, 210, 212);;
+            padding: 10px;
+            font-size:18px;
+            display:flex;
+            align-items:center;
+            gap: 8px;
+
+            .align-icon{
+                padding-left: 8px;
+                
+            }
+
+        }
+
+        .edit-task-card-content {
+            border-bottom: 1px solid rgb(209, 210, 212);
+           
+            .row{
+                display: flex;
+                flex-direction: row;
+                padding:16px;
+                gap: 12px;
+
+                .input-element{
+                    display: flex;
+                    flex-direction: column;
+                    gap:12px;
+                    padding: 8px;
+                   
+                }
+                input[type="text"]{
+                    width: 250px;
+                    height:25px;                    
+                }
+                input[type="date"]{
+                    width: 250px;
+                    height:25px;                    
+                }
+
+                .type{
+                    width: 250px;
+                    height:24px;
+                }
+                
+                .red{
+                    color: red;
+                }
+                .input-radio{
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
+                    padding: 8px;
+                }
+
+            }
+            
+        }
+        .edit-task-footer
+        {
+            padding: 8px;      
+            gap: 8px;  
+            display: flex;
+            justify-content: end;  
+            .btn
+            {
+                height:35px;
+                width:80px;
+                &.bg-grey{
+                    background-color:grey;
+                    border: 1px solid grey;
+                    color:#fff;
+                    border-radius: 2px;
+                    
+                }
+
+
+            }   
+           
+        }
+    }
+}

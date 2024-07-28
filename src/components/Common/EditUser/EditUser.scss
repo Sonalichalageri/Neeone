@@ -1,0 +1,111 @@
+.body-content {
+    background-color: #fff;
+    width: calc(100vw - 250px);
+    height: 99%;
+    margin: 8px 8px 8px 0px;
+    display: flex;
+    flex-direction: column;
+
+    .card-body {
+        background-color: #f8f8f8;
+        height: 57%;
+        width: 96%;
+        margin: 12px;
+        border: 1px solid rgb(209, 210, 212);
+        border-radius: 2px;
+
+        .card-header {
+            height: 30px;            
+            border-bottom: 1px solid rgb(209, 210, 212);;
+            padding: 10px;
+            font-size:18px;
+            display:flex;
+            align-items:center;
+            gap: 8px;
+            .align-icon{
+                padding-left: 8px;
+                
+            }
+
+        }
+
+        .card-content {
+            // border:1px solid black;
+            height: 250px;
+            width: 100%;
+            border-bottom: 1px solid rgb(209, 210, 212);
+            display: flex;
+            flex-direction: row;
+
+            .card-discription {
+                height: 227px;
+                width: 45%;
+                border-right: 1px solid rgb(209, 210, 212);
+                display: flex;
+                flex-direction: column;
+                font-size: 16px;
+                padding: 12px;
+                row-gap: 11px; 
+                .bold{
+                    font-weight: bold;
+                }               
+                
+            }
+
+            .user-detail {
+                height: 100%;
+                width: 55%;
+                display: flex;
+                flex-direction: row;
+                font-weight: 450;
+                .red{
+                    color: red;
+                 }
+                
+
+                .user-detail1 {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 16px;
+                    row-gap: 8px;
+                   
+                }
+
+                .user-detail2 {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 16px;
+                    row-gap: 8px;
+                
+                }
+                input{
+                    height: 24px;
+                }
+            }
+        }
+        .footer
+        {
+            padding: 8px;      
+            gap: 8px;  
+            display: flex;
+            justify-content: end;  
+            .btn
+            {
+                height:35px;
+                width:80px;
+                &.bg-grey{
+                    background-color:grey;
+                    border: 1px solid grey;
+                    color:#fff;
+                    border-radius: 2px;
+                    
+                }
+
+
+            }   
+           
+        }
+    }
+}
